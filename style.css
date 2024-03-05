@@ -5,6 +5,7 @@ body {
   margin: 0;
   text-align: center;
   height: 100vh;
+  
 }
 
 #hero {
@@ -70,7 +71,7 @@ p, #footer {
 }
 
 .line {
-    width: 568px;
+    width: 30vw;
     height: 0;
     
 
