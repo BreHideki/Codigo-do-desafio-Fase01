@@ -5,7 +5,10 @@ body {
   margin: 0;
   text-align: center;
   height: 100vh;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #hero {
@@ -48,7 +51,7 @@ span, a {
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: 20vh;
+  height: 5rem;
 }
 
 #footer {
@@ -57,6 +60,7 @@ span, a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border-top: 1px solid #ECEFF2;
   
 }
 
@@ -64,14 +68,6 @@ p, #footer {
   color: #7d7987;
   font-size: 14px;
   line-height: 28px;
-}
-
-.line {
-    width: 30vw;
-    height: 0;
-    
-
-    border: 1px solid #ECEFF2;
 }
 
 #balls {
